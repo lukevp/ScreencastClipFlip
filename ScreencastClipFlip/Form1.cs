@@ -20,7 +20,7 @@ namespace ScreencastClipFlip
             InitializeComponent();
             timer = new Timer();
             timer.Tick += new EventHandler(CountDown);
-            timer.Interval = 5000;
+            timer.Interval = 250;
             timer.Start();
         }
 
